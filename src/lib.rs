@@ -144,8 +144,8 @@ pub fn svg_is_same(svg_source: String, path: &Path) -> bool {
 
   make_conversions(&source_file_grb, &gerb_view_result_svg, &gerb_view_result_png, &my_result_svg, &my_result_png);
 
-  let result_content = read_png(&gerb_view_result_png);
-  let expected_content = read_png(&my_result_png);
+  // let result_content = read_png(&gerb_view_result_png);
+  // let expected_content = read_png(&my_result_png);
 
   /*
 
