@@ -25,13 +25,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 
 [[package]]
-name = "compare-svg"
-version = "0.1.0"
-dependencies = [
- "png",
-]
-
-[[package]]
 name = "crc32fast"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -48,6 +41,13 @@ checksum = "e7e5d2a2273fed52a7f947ee55b092c4057025d7a3e04e5ecdbd25d6c3fb1bd7"
 dependencies = [
  "adler32",
  "byteorder",
+]
+
+[[package]]
+name = "gerber_compare"
+version = "0.1.0"
+dependencies = [
+ "png",
 ]
 
 [[package]]

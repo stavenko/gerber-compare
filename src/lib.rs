@@ -115,8 +115,8 @@ fn make_conversions(
   my_result_png: &Path
   ) {
   gerber_convert(source_file_grb, gerb_view_result_svg);
-  inkscape_convert(gerb_view_result_svg, gerb_view_result_png);
-  inkscape_convert(my_result_svg, my_result_png);
+  // inkscape_convert(gerb_view_result_svg, gerb_view_result_png);
+  // inkscape_convert(my_result_svg, my_result_png);
 }
 
 
